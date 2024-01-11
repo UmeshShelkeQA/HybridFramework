@@ -1,0 +1,117 @@
+2024-01-11 12:55:12,404 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 12:55:12,569 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:55:13,805 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 12:55:13,884 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:55:17,890 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 12:55:19,211 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 12:55:23,362 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 12:55:23,520 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:55:24,709 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 12:55:24,849 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:55:28,824 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 12:55:30,199 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 12:59:05,807 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 12:59:06,549 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:59:07,525 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 12:59:07,622 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:59:11,852 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 12:59:12,972 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 12:59:15,851 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 12:59:16,028 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:59:20,078 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 12:59:20,234 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 12:59:21,403 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 12:59:25,610 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 13:03:36,823 [main] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 13:03:36,931 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:03:42,396 [main] INFO TestLogger - Validating test result
+2024-01-11 13:03:46,371 [main] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 13:03:46,489 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:03:51,778 [main] INFO TestLogger - clicking on link
+2024-01-11 13:03:58,480 [main] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 13:03:58,663 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:04:04,088 [main] INFO TestLogger - clicking on link
+2024-01-11 13:04:10,998 [main] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 13:04:11,209 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:04:16,530 [main] INFO TestLogger - Validating test result
+2024-01-11 13:18:40,212 [main] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 13:18:40,306 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:18:45,718 [main] INFO TestLogger - Validating test result
+2024-01-11 13:18:49,574 [main] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 13:18:49,697 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:18:55,062 [main] INFO TestLogger - clicking on link
+2024-01-11 13:19:04,722 [main] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 13:19:04,909 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:19:10,215 [main] INFO TestLogger - clicking on link
+2024-01-11 13:19:17,768 [main] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 13:19:17,954 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:19:23,243 [main] INFO TestLogger - Validating test result
+2024-01-11 13:28:47,972 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 13:28:48,215 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:28:48,734 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 13:28:48,863 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:28:53,523 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 13:28:54,303 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 13:28:57,668 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 13:28:58,384 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:29:01,080 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 13:29:01,249 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:29:03,705 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 13:29:06,556 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 13:34:59,109 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 13:34:59,698 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:35:00,484 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 13:35:00,586 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:35:05,023 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 13:35:05,980 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 13:35:09,208 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 13:35:09,386 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:35:12,420 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 13:35:12,618 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 13:35:14,683 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 13:35:18,446 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 14:08:34,610 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 14:08:34,728 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 14:08:40,151 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 15:54:08,868 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 15:54:08,980 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 15:54:14,321 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 15:55:34,503 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 15:55:34,616 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 15:55:39,940 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 15:57:00,179 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 15:57:00,359 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 15:57:05,690 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 15:58:25,553 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 15:58:25,756 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 15:58:31,086 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 16:03:14,500 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 16:03:14,642 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:03:19,979 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 16:24:39,227 [main] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 16:24:39,365 [main] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:24:44,767 [main] INFO TestLogger - Validating test result
+2024-01-11 16:25:55,254 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 16:25:55,382 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:25:55,481 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 16:25:55,571 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:26:00,779 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 16:26:01,438 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 16:26:05,874 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 16:26:06,064 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:26:10,260 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 16:26:10,460 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 16:26:11,429 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 16:26:15,904 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result
+2024-01-11 19:52:09,687 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Honda' text in textfox
+2024-01-11 19:52:09,823 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 19:52:10,239 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Activa' text in textfox
+2024-01-11 19:52:10,323 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 19:52:15,225 [TestNG-test=sampleTest-1] INFO TestLogger - Validating test result
+2024-01-11 19:52:16,056 [TestNG-test=sampleTest-2] INFO TestLogger - clicking on link
+2024-01-11 19:52:19,820 [TestNG-test=sampleTest-1] INFO TestLogger - Entering 'Hero Splender' text in textfox
+2024-01-11 19:52:20,110 [TestNG-test=sampleTest-1] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 19:52:23,011 [TestNG-test=sampleTest-2] INFO TestLogger - Entering 'Suzuki Access 125' text in textfox
+2024-01-11 19:52:23,270 [TestNG-test=sampleTest-2] INFO TestLogger - Selecting first option from suggestion list
+2024-01-11 19:52:25,515 [TestNG-test=sampleTest-1] INFO TestLogger - clicking on link
+2024-01-11 19:52:28,591 [TestNG-test=sampleTest-2] INFO TestLogger - Validating test result

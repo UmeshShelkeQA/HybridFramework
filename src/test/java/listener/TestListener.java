@@ -9,7 +9,7 @@ import manager.TestManager;
 import pages.test.BaseTest;
 
 
-public class TestListener extends BaseTest implements ITestListener{
+public class TestListener implements ITestListener{
 
 //	ExtentReports extent = ReportManager.getReportManager().getExtentReporter();
 	private Object getCurrentTestClassObject(ITestResult result){

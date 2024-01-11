@@ -9,9 +9,13 @@ public class TC_001_HondaTest extends BaseTest {
 
 	@Test(groups = "smoke" ,description = "PageTest2 test1 description" )
 	public void TC_001_Honda_Test() {
+		addAuthor("Umesh");
 		GooglePage gp = new GooglePage(driver);
+		addLog("Entering 'Honda' text in textfox", "info");
 		gp.enterTextInSearchBox("Honda");
+		addLog("Selecting first option from suggestion list", "info");
 		gp.selectOptionFromSuggestionList();
+		addLog("Validating test result", "info");
 		Assert.assertTrue(true);
 	}
 

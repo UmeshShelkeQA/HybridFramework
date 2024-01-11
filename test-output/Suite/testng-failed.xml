@@ -10,15 +10,15 @@
       <class name="pages.test.TC_002_ActivaTest">
         <methods>
           <include name="TC_001_Activa_Test"/>
-          <include name="beforeMethod"/>
-          <include name="AfterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- pages.test.TC_002_ActivaTest -->
       <class name="pages.test.TC_003_HeroTest">
         <methods>
-          <include name="beforeMethod"/>
           <include name="TC_001_Hero_Test"/>
-          <include name="AfterMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- pages.test.TC_003_HeroTest -->
     </classes>

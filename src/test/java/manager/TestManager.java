@@ -91,7 +91,6 @@ public class TestManager {
 	}
 
 	public synchronized static void assignAuthorToTest(Object runningTestObject, String authorName) {
-
 		if (testMapper.containsKey(runningTestObject)) {
 			ExtentTest test = testMapper.get(runningTestObject);
 			test.assignAuthor(authorName);
