@@ -115,3 +115,15 @@
 2024-01-11 19:52:23,270 - TestLogger -INFO - Selecting first option from suggestion list
 2024-01-11 19:52:25,515 - TestLogger -INFO - clicking on link
 2024-01-11 19:52:28,591 - TestLogger -INFO - Validating test result
+2024-01-13 20:34:04,782 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-13 20:34:05,715 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-13 20:34:06,663 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-13 20:34:06,741 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-13 20:34:11,135 - TestLogger -INFO - clicking on link
+2024-01-13 20:34:12,077 - TestLogger -INFO - Validating test result
+2024-01-13 20:34:16,444 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-13 20:34:16,607 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-13 20:34:20,957 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-13 20:34:21,214 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-13 20:34:21,955 - TestLogger -INFO - clicking on link
+2024-01-13 20:34:26,547 - TestLogger -INFO - Validating test result
