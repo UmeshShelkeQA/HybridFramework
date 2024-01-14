@@ -11,11 +11,16 @@ public class TC_001_HondaTest extends BaseTest {
 	public void TC_001_Honda_Test() {
 		addAuthor("Umesh");
 		GooglePage gp = new GooglePage(driver);
-		addLog("Entering 'Honda' text in textfox", "info");
+		addLog("Entering 'Honda' text in textfox");
+		logger.info("Entering 'Honda' text in textfox");
 		gp.enterTextInSearchBox("Honda");
-		addLog("Selecting first option from suggestion list", "info");
+		
+		addLog("Selecting first option from suggestion list");
+		logger.info("Selecting first option from suggestion list");
 		gp.selectOptionFromSuggestionList();
-		addLog("Validating test result", "info");
+		
+		addLog("Validating test result");
+		logger.info("Validating test result");
 		Assert.assertTrue(true);
 	}
 

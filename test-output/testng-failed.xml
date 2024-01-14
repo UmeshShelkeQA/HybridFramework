@@ -7,13 +7,6 @@
   </listeners>
   <test thread-count="2" parallel="classes" name="sampleTest(failed)">
     <classes>
-      <class name="pages.test.TC_003_HeroTest">
-        <methods>
-          <include name="TC_001_Hero_Test"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- pages.test.TC_003_HeroTest -->
       <class name="pages.test.TC_002_ActivaTest">
         <methods>
           <include name="TC_001_Activa_Test"/>
@@ -21,6 +14,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- pages.test.TC_002_ActivaTest -->
+      <class name="pages.test.TC_003_HeroTest">
+        <methods>
+          <include name="TC_001_Hero_Test"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pages.test.TC_003_HeroTest -->
     </classes>
   </test> <!-- sampleTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

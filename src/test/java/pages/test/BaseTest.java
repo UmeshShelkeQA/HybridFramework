@@ -50,21 +50,10 @@ public abstract class BaseTest {
 		return this;
 	}
 
-	public void addLog(String logMessage, String status) {
+	public void addLog(String logMessage) {
 		TestManager.addLogToTest(getCurrentObject(), logMessage);
 		Reporter.log(logMessage);
 
-		switch (status) {
-			case "info":
-				logger.info(logMessage);
-				break;
-			case "error":
-				logger.error(logMessage);
-				break;
-			case "warn":
-				logger.warn(logMessage);
-				break;
-		}
 	}
 
 	public void addAuthor(String author) {

@@ -6,16 +6,20 @@ import pages.GooglePage;
 
 public class TC_003_HeroTest extends BaseTest {
 
-	@Test(groups = "smoke" , description = "PageTest2 test1 description" )
+	@Test(groups = "regression" , description = "PageTest2 test1 description" )
 	public void TC_001_Hero_Test() {
 		addAuthor("Janathan");
 		GooglePage gp = new GooglePage(driver);
-		addLog("Entering 'Hero Splender' text in textfox", "info");
+		addLog("Entering 'Hero Splender' text in textfox");
+		logger.info("Entering 'Hero Splender' text in textfox");
 		gp.enterTextInSearchBox("Hero Splender");
-		addLog("Selecting first option from suggestion list", "info");
+		
+		addLog("Selecting first option from suggestion list");
+		logger.info("Selecting first option from suggestion list");
 		gp.selectOptionFromSuggestionList();
 //		Assert.assertTrue(false);
-		addLog("clicking on link", "info");
+		addLog("clicking on link");
+		logger.info("clicking on link");
 		gp.clickOnLink();
 	}
 
