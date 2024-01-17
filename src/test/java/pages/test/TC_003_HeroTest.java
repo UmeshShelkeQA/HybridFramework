@@ -1,5 +1,6 @@
 package pages.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.GooglePage;
@@ -17,10 +18,8 @@ public class TC_003_HeroTest extends BaseTest {
 		addLog("Selecting first option from suggestion list");
 		logger.info("Selecting first option from suggestion list");
 		gp.selectOptionFromSuggestionList();
-//		Assert.assertTrue(false);
-		addLog("clicking on link");
-		logger.info("clicking on link");
-		gp.clickOnLink();
+		Assert.assertTrue(false);
+		
 	}
 
 }

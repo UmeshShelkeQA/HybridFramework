@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">sampleTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">25,411</td><td></td><td></td></tr>
+<tr><td><a href="#t0">sampleTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">26,454</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">sampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pages.test.TC_002_ActivaTest</td><td><a href="#m0">TC_001_Activa_Test</a></td><td rowspan="1">1705500314981</td><td rowspan="1">9857</td></tr><tr class="failedodd"><td rowspan="1">pages.test.TC_003_HeroTest</td><td><a href="#m1">TC_001_Hero_Test</a></td><td rowspan="1">1705500325376</td><td rowspan="1">9195</td></tr><tr><th colspan="4">sampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pages.test.TC_001_HondaTest</td><td><a href="#m2">TC_001_Honda_Test</a></td><td rowspan="1">1705500315056</td><td rowspan="1">6003</td></tr><tr class="passedodd"><td rowspan="1">pages.test.TC_004_SuzukiTest</td><td><a href="#m3">TC_001_Suzuki_Test</a></td><td rowspan="1">1705500328848</td><td rowspan="1">5619</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">sampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pages.test.TC_002_ActivaTest</td><td><a href="#m0">TC_001_Activa_Test</a></td><td rowspan="1">1705502678712</td><td rowspan="1">8789</td></tr><tr class="failedodd"><td rowspan="1">pages.test.TC_003_HeroTest</td><td><a href="#m1">TC_001_Hero_Test</a></td><td rowspan="1">1705502688435</td><td rowspan="1">8817</td></tr><tr><th colspan="4">sampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pages.test.TC_001_HondaTest</td><td><a href="#m2">TC_001_Honda_Test</a></td><td rowspan="1">1705502675837</td><td rowspan="1">7316</td></tr><tr class="passedodd"><td rowspan="1">pages.test.TC_004_SuzukiTest</td><td><a href="#m3">TC_001_Suzuki_Test</a></td><td rowspan="1">1705502693154</td><td rowspan="1">5831</td></tr></tbody>
 </table>
 <h2>sampleTest</h2><h3 id="m0">pages.test.TC_002_ActivaTest#TC_001_Activa_Test</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entering 'Activa' text in textfox<br/>Selecting first option from suggestion list<br/>clicking on link</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//ul[@role=&apos;listfbox&apos;])[1]/li&apos; (tried for 3 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
@@ -19,18 +19,18 @@
 	at utility.Utility.waitElementToBeVisible(Utility.java:76)
 	at pages.GooglePage.clickOnLink(GooglePage.java:51)
 	at pages.test.TC_002_ActivaTest.TC_001_Activa_Test(TC_002_ActivaTest.java:24)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//ul[@role=&apos;listfbox&apos;])[1]/li&quot;}
   (Session info: chrome=120.0.6099.224)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [259fd5eac8820d34cb1f24cd817a8a54, findElement {using=xpath, value=(//ul[@role=&apos;listfbox&apos;])[1]/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59702/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 259fd5eac8820d34cb1f24cd817a8a54
+Command: [8b90991adaf8fee83ef14bf144994e17, findElement {using=xpath, value=(//ul[@role=&apos;listfbox&apos;])[1]/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60274}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60274/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b90991adaf8fee83ef14bf144994e17
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -50,26 +50,26 @@ Session ID: 259fd5eac8820d34cb1f24cd817a8a54
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 16 more
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 18 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">pages.test.TC_003_HeroTest#TC_001_Hero_Test</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entering 'Hero Splender' text in textfox<br/>Selecting first option from suggestion list<br/>clicking on link</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//ul[@role=&apos;listfbox&apos;])[1]/li&apos; (tried for 3 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at utility.Utility.waitElementToBeVisible(Utility.java:76)
 	at pages.GooglePage.clickOnLink(GooglePage.java:51)
 	at pages.test.TC_003_HeroTest.TC_001_Hero_Test(TC_003_HeroTest.java:23)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//ul[@role=&apos;listfbox&apos;])[1]/li&quot;}
   (Session info: chrome=120.0.6099.224)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11db8627115d7b86c3d8d9d9fe13101a, findElement {using=xpath, value=(//ul[@role=&apos;listfbox&apos;])[1]/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11db8627115d7b86c3d8d9d9fe13101a
+Command: [765486817c9f94ed229694e4726361e8, findElement {using=xpath, value=(//ul[@role=&apos;listfbox&apos;])[1]/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60324/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 765486817c9f94ed229694e4726361e8
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -89,8 +89,8 @@ Session ID: 11db8627115d7b86c3d8d9d9fe13101a
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 16 more
-... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	... 18 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">pages.test.TC_001_HondaTest#TC_001_Honda_Test</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entering 'Honda' text in textfox<br/>Selecting first option from suggestion list<br/>Validating test result</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">pages.test.TC_004_SuzukiTest#TC_001_Suzuki_Test</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entering 'Suzuki Access 125' text in textfox<br/>Selecting first option from suggestion list<br/>Validating test result</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
