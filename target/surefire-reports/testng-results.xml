@@ -5,10 +5,10 @@
       <![CDATA[Entering 'Honda' text in textfox]]>
     </line>
     <line>
-      <![CDATA[Selecting first option from suggestion list]]>
+      <![CDATA[Entering 'Activa' text in textfox]]>
     </line>
     <line>
-      <![CDATA[Entering 'Activa' text in textfox]]>
+      <![CDATA[Selecting first option from suggestion list]]>
     </line>
     <line>
       <![CDATA[Selecting first option from suggestion list]]>
@@ -38,22 +38,24 @@
       <![CDATA[Validating test result]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-11T19:52:02 IST" name="Suite" finished-at="2024-01-11T19:52:29 IST" duration-ms="27216">
+  <suite started-at="2024-01-17T19:35:10 IST" name="Suite" finished-at="2024-01-17T19:35:35 IST" duration-ms="25411">
     <groups>
+      <group name="regression">
+        <method signature="TC_003_HeroTest.TC_001_Hero_Test()[pri:0, instance:pages.test.TC_003_HeroTest@15de0b3c]" name="TC_001_Hero_Test" class="pages.test.TC_003_HeroTest"/>
+        <method signature="TC_004_SuzukiTest.TC_001_Suzuki_Test()[pri:0, instance:pages.test.TC_004_SuzukiTest@489115ef]" name="TC_001_Suzuki_Test" class="pages.test.TC_004_SuzukiTest"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_001_HondaTest.TC_001_Honda_Test()[pri:0, instance:pages.test.TC_001_HondaTest@4d1c00d0]" name="TC_001_Honda_Test" class="pages.test.TC_001_HondaTest"/>
-        <method signature="TC_002_ActivaTest.TC_001_Activa_Test()[pri:0, instance:pages.test.TC_002_ActivaTest@367ffa75]" name="TC_001_Activa_Test" class="pages.test.TC_002_ActivaTest"/>
-        <method signature="TC_003_HeroTest.TC_001_Hero_Test()[pri:0, instance:pages.test.TC_003_HeroTest@49438269]" name="TC_001_Hero_Test" class="pages.test.TC_003_HeroTest"/>
-        <method signature="TC_004_SuzukiTest.TC_001_Suzuki_Test()[pri:0, instance:pages.test.TC_004_SuzukiTest@ba2f4ec]" name="TC_001_Suzuki_Test" class="pages.test.TC_004_SuzukiTest"/>
+        <method signature="TC_001_HondaTest.TC_001_Honda_Test()[pri:0, instance:pages.test.TC_001_HondaTest@179ece50]" name="TC_001_Honda_Test" class="pages.test.TC_001_HondaTest"/>
+        <method signature="TC_002_ActivaTest.TC_001_Activa_Test()[pri:0, instance:pages.test.TC_002_ActivaTest@1a677343]" name="TC_001_Activa_Test" class="pages.test.TC_002_ActivaTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-01-11T19:52:02 IST" name="sampleTest" finished-at="2024-01-11T19:52:29 IST" duration-ms="27216">
+    <test started-at="2024-01-17T19:35:10 IST" name="sampleTest" finished-at="2024-01-17T19:35:35 IST" duration-ms="25411">
       <class name="pages.test.TC_001_HondaTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_001_HondaTest@4d1c00d0]" started-at="2024-01-11T19:52:02 IST" name="setUp" finished-at="2024-01-11T19:52:09 IST" duration-ms="6871" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_001_HondaTest@179ece50]" started-at="2024-01-17T19:35:10 IST" name="setUp" finished-at="2024-01-17T19:35:15 IST" duration-ms="5023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001_Honda_Test()[pri:0, instance:pages.test.TC_001_HondaTest@4d1c00d0]" started-at="2024-01-11T19:52:09 IST" name="TC_001_Honda_Test" description="PageTest2 test1 description" finished-at="2024-01-11T19:52:15 IST" duration-ms="5976" status="PASS">
+        <test-method signature="TC_001_Honda_Test()[pri:0, instance:pages.test.TC_001_HondaTest@179ece50]" started-at="2024-01-17T19:35:15 IST" name="TC_001_Honda_Test" description="PageTest2 test1 description" finished-at="2024-01-17T19:35:21 IST" duration-ms="6003" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering 'Honda' text in textfox]]>
@@ -66,17 +68,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Honda_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_001_HondaTest@4d1c00d0]" started-at="2024-01-11T19:52:16 IST" name="tearDown" finished-at="2024-01-11T19:52:16 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_001_HondaTest@179ece50]" started-at="2024-01-17T19:35:21 IST" name="tearDown" finished-at="2024-01-17T19:35:21 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pages.test.TC_001_HondaTest -->
       <class name="pages.test.TC_003_HeroTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_003_HeroTest@49438269]" started-at="2024-01-11T19:52:16 IST" name="setUp" finished-at="2024-01-11T19:52:19 IST" duration-ms="3278" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_003_HeroTest@15de0b3c]" started-at="2024-01-17T19:35:21 IST" name="setUp" finished-at="2024-01-17T19:35:25 IST" duration-ms="3585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001_Hero_Test()[pri:0, instance:pages.test.TC_003_HeroTest@49438269]" started-at="2024-01-11T19:52:19 IST" name="TC_001_Hero_Test" description="PageTest2 test1 description" finished-at="2024-01-11T19:52:28 IST" duration-ms="9198" status="FAIL">
+        <test-method signature="TC_001_Hero_Test()[pri:0, instance:pages.test.TC_003_HeroTest@15de0b3c]" started-at="2024-01-17T19:35:25 IST" name="TC_001_Hero_Test" description="PageTest2 test1 description" finished-at="2024-01-17T19:35:34 IST" duration-ms="9195" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//ul[@role='listfbox'])[1]/li' (tried for 3 second(s) with 500 milliseconds interval)]]>
@@ -87,11 +89,9 @@ at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.j
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 at utility.Utility.waitElementToBeVisible(Utility.java:76)
 at pages.GooglePage.clickOnLink(GooglePage.java:51)
-at pages.test.TC_003_HeroTest.TC_001_Hero_Test(TC_003_HeroTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at pages.test.TC_003_HeroTest.TC_001_Hero_Test(TC_003_HeroTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -100,23 +100,21 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@role='listfbox'])[1]/li"}
-  (Session info: chrome=120.0.6099.216)
+  (Session info: chrome=120.0.6099.224)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d867aa0dfa60f3efa2aeda38757faab, findElement {using=xpath, value=(//ul[@role='listfbox'])[1]/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51501/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d867aa0dfa60f3efa2aeda38757faab
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Command: [11db8627115d7b86c3d8d9d9fe13101a, findElement {using=xpath, value=(//ul[@role='listfbox'])[1]/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59753/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11db8627115d7b86c3d8d9d9fe13101a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -136,7 +134,7 @@ at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditio
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-... 18 more
+... 16 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
@@ -152,17 +150,17 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Hero_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_003_HeroTest@49438269]" started-at="2024-01-11T19:52:29 IST" name="tearDown" finished-at="2024-01-11T19:52:29 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_003_HeroTest@15de0b3c]" started-at="2024-01-17T19:35:35 IST" name="tearDown" finished-at="2024-01-17T19:35:35 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pages.test.TC_003_HeroTest -->
       <class name="pages.test.TC_004_SuzukiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_004_SuzukiTest@ba2f4ec]" started-at="2024-01-11T19:52:20 IST" name="setUp" finished-at="2024-01-11T19:52:23 IST" duration-ms="2901" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_004_SuzukiTest@489115ef]" started-at="2024-01-17T19:35:25 IST" name="setUp" finished-at="2024-01-17T19:35:28 IST" duration-ms="3165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001_Suzuki_Test()[pri:0, instance:pages.test.TC_004_SuzukiTest@ba2f4ec]" started-at="2024-01-11T19:52:23 IST" name="TC_001_Suzuki_Test" description="PageTest2 test1 description" finished-at="2024-01-11T19:52:28 IST" duration-ms="5580" status="PASS">
+        <test-method signature="TC_001_Suzuki_Test()[pri:0, instance:pages.test.TC_004_SuzukiTest@489115ef]" started-at="2024-01-17T19:35:28 IST" name="TC_001_Suzuki_Test" description="PageTest2 test1 description" finished-at="2024-01-17T19:35:34 IST" duration-ms="5619" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Entering 'Suzuki Access 125' text in textfox]]>
@@ -175,17 +173,17 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Suzuki_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_004_SuzukiTest@ba2f4ec]" started-at="2024-01-11T19:52:28 IST" name="tearDown" finished-at="2024-01-11T19:52:28 IST" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_004_SuzukiTest@489115ef]" started-at="2024-01-17T19:35:34 IST" name="tearDown" finished-at="2024-01-17T19:35:34 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pages.test.TC_004_SuzukiTest -->
       <class name="pages.test.TC_002_ActivaTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_002_ActivaTest@367ffa75]" started-at="2024-01-11T19:52:02 IST" name="setUp" finished-at="2024-01-11T19:52:10 IST" duration-ms="7872" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.test.TC_002_ActivaTest@1a677343]" started-at="2024-01-17T19:35:10 IST" name="setUp" finished-at="2024-01-17T19:35:14 IST" duration-ms="4916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001_Activa_Test()[pri:0, instance:pages.test.TC_002_ActivaTest@367ffa75]" started-at="2024-01-11T19:52:10 IST" name="TC_001_Activa_Test" description="PageTest2 test1 description" finished-at="2024-01-11T19:52:19 IST" duration-ms="9005" status="FAIL">
+        <test-method signature="TC_001_Activa_Test()[pri:0, instance:pages.test.TC_002_ActivaTest@1a677343]" started-at="2024-01-17T19:35:14 IST" name="TC_001_Activa_Test" description="PageTest2 test1 description" finished-at="2024-01-17T19:35:24 IST" duration-ms="9857" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//ul[@role='listfbox'])[1]/li' (tried for 3 second(s) with 500 milliseconds interval)]]>
@@ -196,11 +194,9 @@ at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.j
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 at utility.Utility.waitElementToBeVisible(Utility.java:76)
 at pages.GooglePage.clickOnLink(GooglePage.java:51)
-at pages.test.TC_002_ActivaTest.TC_001_Activa_Test(TC_002_ActivaTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at pages.test.TC_002_ActivaTest.TC_001_Activa_Test(TC_002_ActivaTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -209,23 +205,21 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@role='listfbox'])[1]/li"}
-  (Session info: chrome=120.0.6099.216)
+  (Session info: chrome=120.0.6099.224)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9482b3351f299203b74e01a1e1f91603, findElement {using=xpath, value=(//ul[@role='listfbox'])[1]/li}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51453/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9482b3351f299203b74e01a1e1f91603
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Command: [259fd5eac8820d34cb1f24cd817a8a54, findElement {using=xpath, value=(//ul[@role='listfbox'])[1]/li}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59702/devtoo..., se:cdpVersion: 120.0.6099.224, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 259fd5eac8820d34cb1f24cd817a8a54
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -245,7 +239,7 @@ at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditio
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-... 18 more
+... 16 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
@@ -261,7 +255,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
             </line>
           </reporter-output>
         </test-method> <!-- TC_001_Activa_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_002_ActivaTest@367ffa75]" started-at="2024-01-11T19:52:19 IST" name="tearDown" finished-at="2024-01-11T19:52:20 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.test.TC_002_ActivaTest@1a677343]" started-at="2024-01-17T19:35:25 IST" name="tearDown" finished-at="2024-01-17T19:35:25 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
