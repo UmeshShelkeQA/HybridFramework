@@ -8,7 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import factory.DriverFactory;
 import manager.TestManager;
@@ -24,7 +26,7 @@ public abstract class BaseTest {
 		logger = Logger.getLogger("TestLogger");
 		PropertyConfigurator.configure("./src/test/resources/log4j.properties");
 	}
-	@BeforeClass()
+	@BeforeMethod()
 	public void setUp() throws MalformedURLException, InterruptedException {
 		driver = DriverFactory.getDriver();
 		driver.manage().window().maximize();
@@ -33,11 +35,10 @@ public abstract class BaseTest {
 //		driver.manage().timeouts().pageLoadTimeout(Duration.ofMinutes(1));
 		driver.get(Utility.getConfigurationProperty("env_url"));
 //		print the session id of the driver
-		driverSessionId = ((RemoteWebDriver) driver).getSessionId().toString();
-		System.out.println(driverSessionId);
+//		driverSessionId = ((RemoteWebDriver) driver).getSessionId().toString();
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}

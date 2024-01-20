@@ -35,7 +35,6 @@ public class GooglePage {
 		try {
 			Thread.sleep(3000);
 			for (WebElement ele : suggestions) {
-				System.out.println(ele.getText());
 				ele.click();
 				break;
 			}

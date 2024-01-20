@@ -1,15 +1,22 @@
 package manager;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.model.Test;
 
 import pages.test.BaseTest;
 import utility.Utility;
@@ -54,7 +61,6 @@ public class TestManager {
 		BaseTest baseTest = (BaseTest) (result.getInstance());
 
 		String imageBase64 = Utility.getScreenshotAsBase64(baseTest.getWebDriver());
-		System.out.println("Test Failure");
 		String destinationFilePath = Utility.getScreenshotAsFile(baseTest.getWebDriver(), getMethodName(result));
 		if (testMapper.containsKey(runningTestObject)) {
 			ExtentTest test = testMapper.get(runningTestObject);
@@ -63,6 +69,9 @@ public class TestManager {
 			test.addScreenCaptureFromPath(destinationFilePath);
 			
 			removeTestFromTestMapper(runningTestObject);
+		}
+		if (result.wasRetried()) {
+			System.out.println("Test is retried..");
 		}
 	}
 
@@ -74,9 +83,32 @@ public class TestManager {
 		}
 	}
 
-	public static synchronized void onFinish() {
-		// writes/updates the test information of reporter to the destination type(HTML file)
-		extent.flush();
+	public static synchronized void onFinish(ITestContext context) {
+//		writes/updates the test information of reporter to the destination type(HTML file)
+//		removing duplicate skipped test from extent report
+		List<Test> testResultList = extent.getReport().getTestList();
+		Set<Test> testToRemoveFromeExtentReport =new HashSet<>();
+		for(int i=0; i< testResultList.size(); i++) {
+			String testName = testResultList.get(i).getName();
+			Test searchingTest = testResultList.get(i);
+			
+			if(testResultList.get(i).getStatus().equals(Status.SKIP)) {
+				for(int j=i+1; j< testResultList.size(); j++ ) {
+					
+					Test test = testResultList.get(j);
+					if(test.getName().equals(testName)) {
+						if(test.getStatus().equals(Status.FAIL) || test.getStatus().equals(Status.PASS)) {
+							testToRemoveFromeExtentReport.add(searchingTest);
+							break;
+						}
+					}
+				}
+			}
+		}
+		
+//		removing test from extent reports
+		testToRemoveFromeExtentReport.stream().forEach(test -> extent.getReport().removeTest(test));
+		extent.flush() ;
 	}
 
 	public static ExtentTest getExtentTest(Object runningTestObject) {
@@ -98,7 +130,7 @@ public class TestManager {
 	}
 
 	private synchronized static void removeTestFromTestMapper(Object runningTestObject) {
-		extent.flush();
+//		extent.flush();
 		testMapper.remove(runningTestObject);
 	}
 }

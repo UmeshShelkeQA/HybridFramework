@@ -21,7 +21,6 @@ public class DriverFactory {
 	public synchronized static WebDriver getDriver() throws MalformedURLException {
 		WebDriver driver;
 		String browserName = Utility.getConfigurationProperty("browser").toLowerCase();
-//		System.out.println("getDriver");
 		if (Utility.getConfigurationProperty("remote").toLowerCase().equals("true")) {
 			// capabilities
 			// {"browserName":"chrome","browserVersion":"120.0","goog:chromeOptions":{"binary":"/usr/bin/google-chrome"},
@@ -33,7 +32,6 @@ public class DriverFactory {
 			driver = new RemoteWebDriver(new URL(Utility.getConfigurationProperty("grid_url")), dc);
 
 		} else if (browserName.equalsIgnoreCase("chrome")) {
-			System.out.println("Instantiating driver");
 			driver = new ChromeDriver();
 		
 		} else if (browserName.equalsIgnoreCase("firefox")) {

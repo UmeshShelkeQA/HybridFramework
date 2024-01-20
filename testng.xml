@@ -3,12 +3,15 @@
 <suite name="Suite" parallel="classes" thread-count="2">
 	<listeners>
 		<listener class-name="listener.TestListener" />
+		<listener class-name="listener.RetryListener" />
 	</listeners>
 	<parameter name="browserName" value="chrome" />
 	<test name="sampleTest">
 		<classes>
+			
 			<class name="pages.test.TC_001_HondaTest" />
 			<class name="pages.test.TC_002_ActivaTest" />
+			
 			<class name="pages.test.TC_003_HeroTest" />
 			<class name="pages.test.TC_004_SuzukiTest" />
 		</classes>

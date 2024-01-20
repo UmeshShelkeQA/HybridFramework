@@ -29,11 +29,6 @@ public class Utility {
 				.withTimeout(Duration.ofSeconds(waitInSecond));
 
 		boolean isDownloaded = wait.until(file -> file.exists());
-//		if(isDownloaded) {
-//			System.out.println("File Downloaded");
-//		}else {
-//			System.out.println("File Not Downloaded");
-//		}
 		return isDownloaded;
 	}
 

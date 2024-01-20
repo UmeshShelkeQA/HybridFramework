@@ -7,7 +7,7 @@ import pages.GooglePage;
 
 public class TC_003_HeroTest extends BaseTest {
 
-	@Test(groups = "regression" , description = "PageTest2 test1 description" )
+	@Test(groups = {"regression","flaky_test"} , description = "PageTest2 test1 description" )
 	public void TC_001_Hero_Test() {
 		addAuthor("Janathan");
 		GooglePage gp = new GooglePage(driver);

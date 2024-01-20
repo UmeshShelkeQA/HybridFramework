@@ -1,6 +1,7 @@
 package pages.test;
 
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import pages.GooglePage;
@@ -18,7 +19,10 @@ public class TC_002_ActivaTest extends BaseTest {
 		addLog("Selecting first option from suggestion list");
 		logger.info("Selecting first option from suggestion list");
 		gp.selectOptionFromSuggestionList();
-		Assert.assertTrue(true);
+		
+		addLog("Skipping test intentially");
+		throw new SkipException("Skipping test intentially");
+//		Assert.assertTrue(true);
 	}
 
 }

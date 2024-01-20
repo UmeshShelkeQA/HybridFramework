@@ -175,3 +175,209 @@
 2024-01-17 20:14:53,409 - TestLogger -INFO - Selecting first option from suggestion list
 2024-01-17 20:14:54,132 - TestLogger -INFO - clicking on link
 2024-01-17 20:14:58,985 - TestLogger -INFO - Validating test result
+2024-01-20 12:46:33,134 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-20 12:46:33,782 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:46:35,474 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 12:46:35,603 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:46:39,191 - TestLogger -INFO - Validating test result
+2024-01-20 12:46:44,932 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:46:45,256 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:46:47,144 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 12:46:47,336 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:46:54,286 - TestLogger -INFO - Validating test result
+2024-01-20 12:50:06,748 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 12:50:07,584 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:50:09,131 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-20 12:50:09,252 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:50:14,681 - TestLogger -INFO - Validating test result
+2024-01-20 12:50:16,536 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:50:19,378 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:50:20,444 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 12:50:20,746 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:50:24,892 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:50:25,665 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:50:26,117 - TestLogger -INFO - Validating test result
+2024-01-20 12:50:31,016 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:50:33,482 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:52:51,610 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-20 12:52:54,071 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:52:54,425 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 12:52:54,526 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:52:59,530 - TestLogger -INFO - Validating test result
+2024-01-20 12:53:03,919 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:53:04,070 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:53:06,672 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 12:53:06,891 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:53:09,453 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:53:12,255 - TestLogger -INFO - Validating test result
+2024-01-20 12:53:16,524 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:53:25,172 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:53:25,399 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:55:56,164 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 12:55:57,083 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:55:58,133 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-20 12:55:58,214 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:56:05,281 - TestLogger -INFO - Validating test result
+2024-01-20 12:56:09,007 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:56:09,168 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:56:10,130 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 12:56:10,333 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:56:15,730 - TestLogger -INFO - Validating test result
+2024-01-20 12:56:18,270 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:56:18,429 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 12:56:28,580 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 12:56:28,744 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:10:40,384 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:10:40,638 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:10:40,726 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:10:40,872 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:10:45,930 - TestLogger -INFO - Validating test result
+2024-01-20 13:10:50,247 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:10:50,407 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:10:59,179 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:10:59,373 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:19:52,216 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:19:52,472 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:19:52,877 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:19:52,992 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:19:57,788 - TestLogger -INFO - Validating test result
+2024-01-20 13:20:01,631 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:20:01,797 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:20:11,565 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:20:11,731 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:23:16,972 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:23:18,836 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:23:19,042 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:23:20,585 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:23:26,136 - TestLogger -INFO - Validating test result
+2024-01-20 13:23:28,493 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:23:28,676 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:23:37,394 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:23:37,580 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:25:03,745 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:25:03,745 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:25:03,942 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:25:03,949 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:25:09,331 - TestLogger -INFO - Validating test result
+2024-01-20 13:25:13,223 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:25:13,390 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:25:22,490 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:25:22,654 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:36:11,415 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:36:11,603 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:36:12,649 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:36:12,786 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:36:16,923 - TestLogger -INFO - Validating test result
+2024-01-20 13:36:21,921 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:36:22,084 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:36:30,659 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:36:30,810 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:41:15,732 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 13:41:15,979 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:41:16,890 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:41:17,012 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:41:21,308 - TestLogger -INFO - Validating test result
+2024-01-20 13:41:27,794 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:41:27,985 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 13:41:37,105 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 13:41:37,264 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:03:07,719 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:03:07,719 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:03:07,921 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:03:07,983 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:03:13,896 - TestLogger -INFO - Validating test result
+2024-01-20 14:03:17,554 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:03:17,715 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:03:26,587 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:03:26,760 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:28,458 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:04:29,220 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:32,181 - TestLogger -INFO - Entering 'Honda' text in textfox
+2024-01-20 14:04:32,299 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:37,654 - TestLogger -INFO - Validating test result
+2024-01-20 14:04:41,624 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:04:41,808 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:42,463 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:04:42,626 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:50,903 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:04:51,132 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:04:51,211 - TestLogger -INFO - Validating test result
+2024-01-20 14:05:00,219 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:05:00,384 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:06:00,915 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:06:01,058 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:06:01,984 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:06:02,144 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:06:11,280 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:06:11,474 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:06:12,472 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:06:12,683 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:06:17,986 - TestLogger -INFO - Validating test result
+2024-01-20 14:06:20,804 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:06:20,975 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:19:36,084 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:19:36,250 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:19:36,819 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:19:36,939 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:19:46,120 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:19:47,971 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:19:49,081 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:19:49,254 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:19:53,300 - TestLogger -INFO - Validating test result
+2024-01-20 14:19:57,980 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:19:58,141 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:29:34,832 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:29:35,760 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:29:37,412 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:29:37,588 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:29:47,148 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:29:47,362 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:29:48,384 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:29:48,670 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:29:54,058 - TestLogger -INFO - Validating test result
+2024-01-20 14:29:57,288 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:29:57,476 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:36:46,479 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:36:46,758 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:36:47,611 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:36:47,690 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:36:55,302 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:36:55,494 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:36:57,306 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:36:57,487 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:37:02,977 - TestLogger -INFO - Validating test result
+2024-01-20 14:37:04,356 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:37:04,519 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:44:11,616 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:44:11,804 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:44:12,545 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:44:12,662 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:44:21,433 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:44:21,746 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:44:22,524 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:44:22,690 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:44:27,170 - TestLogger -INFO - Validating test result
+2024-01-20 14:44:31,387 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:44:31,515 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:47:43,498 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:47:43,699 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:47:44,509 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:47:44,621 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:47:51,416 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:47:53,021 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:47:53,330 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:47:54,886 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:48:00,265 - TestLogger -INFO - Validating test result
+2024-01-20 14:48:02,413 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:48:02,575 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:51:46,839 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:51:46,839 - TestLogger -INFO - Entering 'Activa' text in textfox
+2024-01-20 14:51:47,019 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:51:47,042 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:51:55,690 - TestLogger -INFO - Entering 'Suzuki Access 125' text in textfox
+2024-01-20 14:51:55,916 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:51:56,973 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:51:57,118 - TestLogger -INFO - Selecting first option from suggestion list
+2024-01-20 14:52:01,256 - TestLogger -INFO - Validating test result
+2024-01-20 14:52:05,968 - TestLogger -INFO - Entering 'Hero Splender' text in textfox
+2024-01-20 14:52:06,124 - TestLogger -INFO - Selecting first option from suggestion list

@@ -18,7 +18,6 @@ public class TestListener implements ITestListener{
 	}
 	public void onTestStart(ITestResult result) {
 		
-		System.out.println("OnTestStart : " + getCurrentTestClassObject(result));
 		TestManager.onTestStart( getCurrentTestClassObject(result) , result);
 	}
 	public void onTestSuccess(ITestResult result) {
@@ -33,19 +32,15 @@ public class TestListener implements ITestListener{
 	}
 	public void onFinish(ITestContext context) {
 		//writes/updates the test information of reporter to the destination type(HTML file) 
-		System.out.println("onFinish");
-		TestManager.onFinish();
+		TestManager.onFinish(context);
 	}
 	
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
 		
 	}
 	@Override
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-		System.out.println("onStart");
 	}
 
 }
